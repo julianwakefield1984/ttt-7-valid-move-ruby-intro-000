@@ -6,7 +6,7 @@ def valid_move?(board, index)
     valid_move = false
   else board[index] == nil
     valid_move = nil
-  else board[index] == " " || board[index] == "" || 
+  elsif board[index] == " " || board[index] == "" || 
     valid_move = true
   end
 end
