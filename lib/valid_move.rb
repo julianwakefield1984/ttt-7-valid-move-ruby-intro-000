@@ -2,7 +2,10 @@
 
 valid_move = nil
 def valid_move?(board, index)
-  if board[index]
+  if board[index] == "X" || board[index] == "0"
+    valid_move = FALSE
+  else
+    valid_move = TRUE
 end
 
 
